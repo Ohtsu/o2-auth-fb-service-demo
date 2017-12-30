@@ -1,0 +1,56 @@
+<form>
+  <br><hr>
+  <hr>
+  <input type = "text" id="email" name="email" [(ngModel)]="email" placeholder="email" />
+  
+  <input type = "password" id="password" name="password" [(ngModel)]="password" placeholder="password" />
+  
+  <br>
+  <button (click)="loginEmail()" [disabled]="!email || !password">
+    Login
+  </button>
+
+  <br><hr>
+  <button (click)="loginGoogle()" >
+    LoginGoogle
+  </button>
+  <br>
+  <button (click)="loginFacebook()" >
+    LoginFacebook
+  </button>
+  <br>
+  <button (click)="loginTwitter()" >
+    LoginTwitter
+  </button>
+  <br>
+  <button (click)="loginGithub()" >
+    LoginGithub
+  </button>
+  <br><hr>
+  <hr>
+  <button (click)="getToken()" >
+    GetToken
+  </button>
+  <button (click)="getAuthStatus()" >
+    GetAuthStatus
+  </button>
+  <button (click)="getUser()" *ngIf="isAuthenticated">
+    GetUser
+  </button>
+  <button (click)="Logout()" *ngIf="isAuthenticated">
+    Logout
+  </button>
+  <br><hr>
+  <hr>
+  <button (click)="getTokenByLocalStorage()" >
+    GetTokenByLocalStorage
+  </button>
+  <br>
+  <button (click)="getUserByLocalStorage()" >
+    GetUserByLocalStorage
+  </button>
+  <br><hr>
+  <hr>
+
+ 
+</form>
