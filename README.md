@@ -6,7 +6,7 @@
 
 __o2-auth-fb-service__ is a library for authenticating users by Firebase service by Angular5.
 
-Video Explanation https://youtu.be/
+Video Explanation https://youtu.be/WdaarC4sOg8
 
 ## Overview
 _o2-auth-fb-service_ is a tool for using Firebase authentication service by using Angular5
