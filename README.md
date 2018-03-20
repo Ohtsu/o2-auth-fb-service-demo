@@ -178,6 +178,10 @@ If you succeed in the authentication, you will find the messages such as  **is A
 
 - "Learn Angular 4 from Scratch",by Gary Simon, udemy, <https://www.udemy.com/learn-angular-from-scratch/learn/v4/content>
 
+- "Angular5 Custom Library: The definitive, step-by-step guide", 
+<https://www.udemy.com/draft/1461368/learn/v4/content>
+
+
 ## Change Log
 - 2017.12.31 version 0.4.3 uploaded
 
